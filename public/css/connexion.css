@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 150px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+#login_zone{
+    width: auto;
+    min-height: 750px;
+    background: #E5E5E5;
+    overflow: hidden;
+    display: inline-block;
+}
+
+                                    /* INSCRIPTION */
+#inscription{
+    width: 600px;
+    float: left;
+}
+
+#inscription form{
+    width: 100%;
+    font-size: 18px;  
+}
+
+#inscription form label{
+    display: inline-block;
+    padding: 15px 0 15px 110px;
+}
+
+.input{
+    width: 70%;
+    height: 50px;
+    margin-left: 100px;
+    border: 2px solid grey;
+    padding: 0 5px 0 15px;
+}
+
+.input:focus{
+    border: 3px solid rgb(61, 61, 61);
+}
+
+#signup{
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+                                    /* BUTTON */ 
+input[type="submit"]{
+    width: 200px;
+    height: 50px;
+    background: #F2C94C;
+    color: #ffffff;
+    font-size: 25px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover{
+    background: rgb(218, 177, 56);
+    color: #000000;
+    border: 2px solid rgb(39, 39, 39);
+}
+
+input[type="submit"]:focus{
+    background: rgb(235, 189, 52);
+    color: #000000;
+}
+
+                                    /* CONNEXION */
+#connexion{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    float: right;
+    padding-left: 400px;
+    margin-top: -700px;
+}
+
+#con{
+    display: inline-block;
+    padding: 100px 0 15px 0px;
+}
+
+#connect{
+    margin: auto;
+    width: 100%;
+    margin-left: 40px;
+}
+
+#connexion form{
+    width: 600px;
+    font-size: 18px;  
+}
+
+#connexion form label{
+    display: inline-block;
+    padding: 15px 0 15px 110px;
+}
+
+.input_login{    
+    height: 50px;
+    width: 300px;
+    border: 2px solid grey;
+    padding: 0 5px 0 15px;
+}
+
+#btn_connect{
+    margin: 50px 0 0 300px;
+}
+
+
+                                    /* FONT */
+@font-face{
+    font-family: "Roboto";
+    src: url('../styles/font/roboto/Roboto-Light.ttf');
+}
+

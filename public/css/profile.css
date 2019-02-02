@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 150px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+#profil_page{
+    min-height: 750px;
+    overflow: hidden;
+    display: inline;
+}
+
+h2{
+    font-size: 50px;
+    width: 400px;
+    height: 100px;
+}
+
+#profil_id{
+    width: 50%;
+    min-height: 550px;
+    display: inline-block;
+    /*margin: auto;*/
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}
+
+input[type="submit"]{
+    width: 350px;
+    height: 50px;
+    background: #F2C94C;
+    color: #ffffff;
+    font-size: 24px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+    letter-spacing: 0.2em;
+}
+
+#profil_information{
+    position: absolute;;
+    width: 675px;
+    height: 600px;
+    left: 650px;
+    top: 100px;
+    background: #ffffff;
+    float: right;
+}
+
+form{
+    width: 100%;
+    font-size: 18px; 
+}
+
+table{
+    padding: 20px;
+    margin: 10px;
+    margin-top: -20px;
+}
+
+form label{
+    display: inline-block;
+    padding: 15px 0 15px 0px;
+}
+
+form input{
+    width: 65%;
+    height: 50px;
+    margin-left: 100px;
+    border: 2px solid grey;
+    padding: 0 5px 0 15px;
+}
+
+#valid{
+    margin-top: 20px;
+}
+
+h3{
+    width: 675px;
+    height: 100px;
+    left: 675px;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}    
