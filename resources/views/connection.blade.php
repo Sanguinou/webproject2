@@ -83,11 +83,11 @@ if (isset($urlLog) && isset($_POST['password']) && !isset($_POST['first_name']))
 <body>
     @section('content')
     <div>
-        <h2>Connexion</h2>
+        <h2 class="title">Connexion</h2>
         <!-- grey zone -->
-        <div id="login_zone">       
+        <div id="login_zone" class="gridLogin">       
             <!-- Inscription bloc -->                
-            <div id="inscription">                   
+            <div id="inscription" class="center">                   
                 <h3>Inscription</h3>
                 <form method="POST" action="connection">
                     <label for="nom">Nom :</label>
@@ -109,19 +109,15 @@ if (isset($urlLog) && isset($_POST['password']) && !isset($_POST['first_name']))
                 </form>
             </div>
             <!-- Connexion bloc -->
-            <div id="connexion">                   
+            <div id="connexion" class="center">                   
                 <h3>Connexion</h3>
                 <form id="con" method="POST" action="connection">
-                    <table id="connect">
-                        <tr>
-                            <td><label for="email">E-Mail :</label></td>
-                            <td><input class="input_login" type="email" placeholder="Votre e-mail" id="email" name="email" /></td>
-                        </tr>
-                        <tr>
-                            <td><label for="mdp">Mot de passe :</label></td>
-                            <td><input class="input_login" type="password" placeholder="Votre mot de passe" id="mdp" name="password" /></td>
-                        </tr>  
-                    </table> 
+                    
+                    <label for="email">E-Mail :</label>
+                    <input class="input_login" type="email" placeholder="Votre e-mail" id="email" name="email" />
+                
+                    <td><label for="mdp">Mot de passe :</label></td>
+                    <td><input class="input_login" type="password" placeholder="Votre mot de passe" id="mdp" name="password" /> 
                     <!-- Button for sign up -->
                     <input id="btn_connect" type="submit" name="forminscritpion" value="Sign in">
                 </form>

@@ -5,124 +5,252 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h2{
-    font-size: 50px;
-}
+@media only screen and (min-width: 930px) {
 
-h3{
-    font-size: 25px;
-    text-align: center;
-}
+    h3{
+        font-size: 25px;
+        text-align: center;
+    }
 
-#login_zone{
-    width: auto;
-    min-height: 750px;
-    background: #E5E5E5;
-    overflow: hidden;
-    display: inline-block;
-}
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-                                    /* INSCRIPTION */
-#inscription{
-    width: 600px;
-    float: left;
-}
+    .title {
+        width: 1000px;
+        height: 75px;
+        font-size: 64px;
+        letter-spacing: 0.2em;
+        position: relative;
+        top: 40px;
+        left: 7%;
+        text-align: left;
+    }
 
-#inscription form{
-    width: 100%;
-    font-size: 18px;  
-}
+    .gridLogin {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        background-color: #c4c4c4;
+        margin: 20px;
+    }
 
-#inscription form label{
-    display: inline-block;
-    padding: 15px 0 15px 110px;
-}
+                                        /* INSCRIPTION */
+    #inscription{
+        width: 90%;
+        padding: 5px;
+    }
 
-.input{
-    width: 70%;
-    height: 50px;
-    margin-left: 100px;
-    border: 2px solid grey;
-    padding: 0 5px 0 15px;
-}
+    #inscription form{
+        width: 100%;
+        font-size: 18px;  
+    }
 
-.input:focus{
-    border: 3px solid rgb(61, 61, 61);
-}
+    #inscription form label{
+        display: inline-block;
+        padding: 15px 0 15px 110px;
+    }
 
-#signup{
-    margin-left: 35%;
-    margin-top: 50px;
-}
+    .input{
+        width: 70%;
+        height: 50px;
+        margin-left: 100px;
+        border: 2px solid grey;
+        padding: 0 5px 0 15px;
+    }
 
-                                    /* BUTTON */ 
-input[type="submit"]{
-    width: 200px;
-    height: 50px;
-    background: #F2C94C;
-    color: #ffffff;
-    font-size: 25px;
-    border: 2px solid grey;
-    box-sizing: border-box;
-}
+    .input:focus{
+        border: 3px solid rgb(61, 61, 61);
+    }
 
-input[type="submit"]:hover{
-    background: rgb(218, 177, 56);
-    color: #000000;
-    border: 2px solid rgb(39, 39, 39);
-}
+    #signup{
+        margin-left: 35%;
+        margin-top: 50px;
+    }
 
-input[type="submit"]:focus{
-    background: rgb(235, 189, 52);
-    color: #000000;
-}
+                                        /* BUTTON */ 
+    input[type="submit"]{
+        width: 200px;
+        height: 50px;
+        background: #F2C94C;
+        color: #ffffff;
+        font-size: 25px;
+        border: 2px solid grey;
+        box-sizing: border-box;
+    }
 
-                                    /* CONNEXION */
-#connexion{
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    float: right;
-    padding-left: 400px;
-    margin-top: -700px;
-}
+    input[type="submit"]:hover{
+        background: rgb(218, 177, 56);
+        color: #000000;
+        border: 2px solid rgb(39, 39, 39);
+    }
 
-#con{
-    display: inline-block;
-    padding: 100px 0 15px 0px;
-}
+    input[type="submit"]:focus{
+        background: rgb(235, 189, 52);
+        color: #000000;
+    }
 
-#connect{
-    margin: auto;
-    width: 100%;
-    margin-left: 40px;
-}
-
-#connexion form{
-    width: 600px;
-    font-size: 18px;  
-}
-
-#connexion form label{
-    display: inline-block;
-    padding: 15px 0 15px 110px;
-}
-
-.input_login{    
-    height: 50px;
-    width: 300px;
-    border: 2px solid grey;
-    padding: 0 5px 0 15px;
-}
-
-#btn_connect{
-    margin: 50px 0 0 300px;
-}
+                                        /* CONNEXION */
 
 
-                                    /* FONT */
-@font-face{
-    font-family: "Roboto";
-    src: url('../styles/font/roboto/Roboto-Light.ttf');
+    #con{
+        display: inline-block;
+        padding: 100px 0 15px 0px;
+    }
+
+    #connect{
+        width: 90%;
+        padding: 10px;
+    }
+
+    #connexion form{
+        width: 600px;
+        font-size: 18px;  
+    }
+
+    #connexion form label{
+        display: inline-block;
+        padding: 15px 0 15px 110px;
+    }
+
+    .input_login{    
+        height: 50px;
+        width: 300px;
+        border: 2px solid grey;
+        padding: 0 5px 0 15px;
+    }
+
+    #btn_connect{
+        margin: 50px 0 0 300px;
+    }
 }
+
+@media only screen and (max-width: 930px) {
+
+    h3{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        position: relative;
+        top: 10px;
+        left: 7%;
+        text-align: left;
+    }
+
+    .gridLogin {
+        display: grid;
+        grid-template-rows: 5fr 5fr;
+        background-color: #c4c4c4;
+        margin: 20px;
+    }
+
+                                        /* INSCRIPTION */
+    #inscription{
+        width: 90%;
+        padding: 5px;
+    }
+
+    #inscription form{
+        width: 100%;
+        font-size: 8px;  
+    }
+
+    #inscription form label{
+        display: inline-block;
+        padding: 15px 0 15px 110px;
+    }
+
+    .input{
+        width: 70%;
+        height: 30px;
+        margin-left: 25px;
+        border: 2px solid grey;
+        padding: 0 5px 0 15px;
+    }
+
+    .input:focus{
+        border: 3px solid rgb(61, 61, 61);
+    }
+
+    #signup{
+        margin-left: 35%;
+        margin-top: 50px;
+    }
+
+                                        /* BUTTON */ 
+    input[type="submit"]{
+        width: 100px;
+        height: 30px;
+        background: #F2C94C;
+        color: #ffffff;
+        font-size: 11px;
+        border: 2px solid grey;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"]:hover{
+        background: rgb(218, 177, 56);
+        color: #000000;
+        border: 2px solid rgb(39, 39, 39);
+    }
+
+    input[type="submit"]:focus{
+        background: rgb(235, 189, 52);
+        color: #000000;
+    }
+
+                                        /* CONNEXION */
+
+
+    #con{
+        display: inline-block;
+        padding: 25px 0 15px 0px;
+    }
+
+    #connect{
+        width: 90%;
+        padding: 10px;
+    }
+
+    #connexion form{
+        width: 300px;
+        font-size: 18px;  
+    }
+
+    #connexion form label{
+        display: inline-block;
+        padding: 15px 0 15px 10px;
+        font-size: 8px;
+    }
+
+    .input_login{    
+        width: 70%;
+        height: 30px;
+        margin-left: 25px;
+        border: 2px solid grey;
+        padding: 0 5px 0 15px;
+    }
+
+    #btn_connect{
+        margin-left: 35%;
+        margin-top: 50px;
+    }
+
+    #connexion form label{
+        display: inline-block;
+        padding: 15px 0 15px 110px;
+    }
+}
+
 
