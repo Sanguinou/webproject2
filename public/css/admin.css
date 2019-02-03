@@ -13,54 +13,112 @@ a:visited {
     text-decoration: none;
 }
 
-.gridOS {
-    display: grid;
-    grid-template-columns: 5fr 5fr;
+@media only screen and (min-width: 930px) {
+
+    .gridOS {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+    }
+
+    .center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .prodList{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 25px;
+    }
+
+    .prodList th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #f2c94c; 
+    }
+
+    .prodList td, .prodList th{
+        font-size: 12px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .pos {
+        margin: 10px;
+    }
+
+    .buttonStyle3 {
+        text-transform: uppercase;
+        background-color: #f2c94c;
+        border: 2px solid #000000;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+    }
+
+    .prodbtnpos {
+        width: 300px;
+        height: 30px;
+        margin-left: 60%;
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
 }
 
-.center {
-    margin-right: auto;
-    margin-left: auto;
-}
+@media only screen and (max-width: 930px) {
 
-.prodList{
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 25px;
-}
+    .gridOS {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+    }
 
-.prodList th{
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #f2c94c; 
-}
+    .center {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-.prodList td, .prodList th{
-    font-size: 12px;
-    border: 1px solid #ddd;
-    padding: 10px;
-}
+    .prodList{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 25px;
+    }
 
-.pos {
-    margin: 10px;
-}
+    .prodList th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #f2c94c; 
+    }
 
-.buttonStyle3 {
-    text-transform: uppercase;
-    background-color: #f2c94c;
-    border: 2px solid #000000;
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 0.2em;
-    font-weight: bold;
-}
+    .prodList td, .prodList th{
+        font-size: 12px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
 
-.prodbtnpos {
-    width: 300px;
-    height: 30px;
-    margin-left: 60%;
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: bold;
+    .pos {
+        margin: 10px;
+    }
+
+    .buttonStyle3 {
+        text-transform: uppercase;
+        background-color: #f2c94c;
+        border: 2px solid #000000;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+    }
+
+    .prodbtnpos {
+        width: 150px;
+        height: 50px;
+        margin-left: 50%;
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
 }

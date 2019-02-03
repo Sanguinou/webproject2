@@ -28,7 +28,7 @@ if(isset($_SESSION['timeout'])){
                     <li><a class="white" href="http://127.0.0.1:8000/shop">Boutique</a></li>
                     <li><a class="white" href="http://127.0.0.1:8000/ideabox">Boite à idée</a></li>
                     <?php if(isset($_SESSION['decoded'])){if($_SESSION['decoded']->id_status_user==2){
-                        echo "<li><a href='http://127.0.0.1:8000/Administration'>Administration</a></li>";
+                        echo "<li><a href='http://127.0.0.1:8000/Administration'>Admin</a></li>";
                     }}?>
                     <li id="connexion">
                     <?php if(isset($_SESSION['decoded'])){
